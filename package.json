@@ -1,0 +1,27 @@
+{
+  "name": "artdealer-json-server",
+  "version": "1.0.0",
+  "description": "JSON server for ArtDealer app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Russamadda/artdealer-json-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Russamadda/artdealer-json-server/issues"
+  },
+  "homepage": "https://github.com/Russamadda/artdealer-json-server#readme",
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
