@@ -1,7 +1,293 @@
 {
-    "categories": [],
-    "artists": [],
-    "photos": [],
-    "frametypes": [],
-    "photosizes": []
+    "categories": [
+        { "id": 1, "name": "NATURE" },
+        { "id": 2, "name": "PORTRAIT" },
+        { "id": 3, "name": "ABSTRACT" },
+        { "id": 4, "name": "ANIMALS" }
+    ],
+    "frametypes": [
+        {
+            "id": 10,
+            "name": "WOOD",
+            "extraPrice": 0,
+            "color": "#FFFF00"
+        },
+        {
+            "id": 11,
+            "name": "METAL",
+            "extraPrice": 100,
+            "color": "#C0C0C0"
+        },
+        {
+            "id": 12,
+            "name": "PLASTIC",
+            "extraPrice": 30,
+            "color": "#000000"
+        }
+    ],
+    "photosizes": [
+        {
+            "id": 20,
+            "name": "SMALL",
+            "extraPrice": 0,
+            "size": 170
+        },
+        {
+            "id": 21,
+            "name": "MEDIUM",
+            "extraPrice": 130,
+            "size": 200
+        },
+        {
+            "id": 22,
+            "name": "LARGE",
+            "extraPrice": 230,
+            "size": 250
+        }
+    ],
+    "framewidth": [
+        {
+            "id": 30,
+            "name": "SMALL",
+            "extraPrice": 0,
+            "size": 10
+        },
+        {
+            "id": 31,
+            "name": "MEDIUM",
+            "extraPrice": 130,
+            "size": 15
+        },
+        {
+            "id": 32,
+            "name": "LARGE",
+            "extraPrice": 230,
+            "size": 20
+        }
+    ],
+    "artists": [
+        {
+            "id": 100,
+            "name": "Carl",
+            "familyName": "Bjerke"
+        },
+        {
+            "id": 101,
+            "name": "Petter",
+            "familyName": "Hasselquist"
+        },
+        {
+            "id": 102,
+            "name": "Frida",
+            "familyName": "Kahlo"
+        },
+        {
+            "id": 103,
+            "name": "Edvard",
+            "familyName": "Munch"
+        },
+        {
+            "id": 104,
+            "name": "Ansel",
+            "familyName": "Adams"
+        },
+        {
+            "id": 105,
+            "name": "Cindy",
+            "familyName": "Sherman"
+        }
+    ],
+    "photos": [
+        {
+            "id": 200,
+            "title": "Refleksjoner i Byen",
+            "imageUrl": "/images/refleksjoner_i_byen.jpg",
+            "artistId": 100,
+            "categoryId": 1,
+            "price": 1200
+        },
+        {
+            "id": 201,
+            "title": "Skyggespill",
+            "imageUrl": "/images/skyggespill.jpg",
+            "artistId": 100,
+            "categoryId": 2,
+            "price": 1400
+        },
+        {
+            "id": 202,
+            "title": "Natt over Oslofjorden",
+            "imageUrl": "/images/natt_over_oslofjorden.jpg",
+            "artistId": 100,
+            "categoryId": 1,
+            "price": 1600
+        },
+        {
+            "id": 203,
+            "title": "Neonlys i Regn",
+            "imageUrl": "/images/neonlys_i_regn.jpg",
+            "artistId": 100,
+            "categoryId": 2,
+            "price": 1800
+        },
+        {
+            "id": 204,
+            "title": "Nordlys over Tromsø",
+            "imageUrl": "/images/nordlys_tromso.jpg",
+            "artistId": 101,
+            "categoryId": 1,
+            "price": 1500
+        },{
+            "id": 205,
+            "title": "Vinterlandskap i Sverige",
+            "imageUrl": "/images/vinterlandskap_sverige.jpg",
+            "artistId": 101,
+            "categoryId": 1,
+            "price": 1300
+        },
+        {
+            "id": 206,
+            "title": "Rådyr i Morgengry",
+            "imageUrl": "/images/radyret_morgengry.jpg",
+            "artistId": 101,
+            "categoryId": 3,
+            "price": 1400
+        },
+        {
+            "id": 207,
+            "title": "Fjelltoppens Stillhet",
+            "imageUrl": "/images/fjelltopp_stillhet.jpg",
+            "artistId": 101,
+            "categoryId": 1,
+            "price": 1700
+        },
+        {
+            "id": 208,
+            "title": "Selvportrett med Tornhalsbånd",
+            "imageUrl": "/images/selvportrett_tornhalsband.jpg",
+            "artistId": 102,
+            "categoryId": 4,
+            "price": 2100
+        },
+        {
+            "id": 209,
+            "title": "De To Fridaer",
+            "imageUrl": "/images/de_to_fridaer.jpg",
+            "artistId": 102,
+            "categoryId": 4,
+            "price": 2200
+        },
+        {
+            "id": 210,
+            "title": "Min Sykepleier og Jeg",
+            "imageUrl": "/images/min_sykepleier_og_jeg.jpg",
+            "artistId": 102,
+            "categoryId": 4,
+            "price": 2000
+        },
+        {
+            "id": 211,
+            "title": "Naturens Kall",
+            "imageUrl": "/images/naturens_kall.jpg",
+            "artistId": 102,
+            "categoryId": 2,
+            "price": 2300
+        },
+        {
+            "id": 212,
+            "title": "Skrik",
+            "imageUrl": "/images/skrik.jpg",
+            "artistId": 103,
+            "categoryId": 2,
+            "price": 3000
+        },
+        {
+            "id": 213,
+            "title": "Madonna",
+            "imageUrl": "/images/madonna.jpg",
+            "artistId": 103,
+            "categoryId": 4,
+            "price": 2800
+        },
+        {
+            "id": 214,
+            "title": "Det Syke Barn",
+            "imageUrl": "/images/det_syke_barn.jpg",
+            "artistId": 103,
+            "categoryId": 4,
+            "price": 2600
+        },
+        {
+            "id": 215,
+            "title": "Vampyr",
+            "imageUrl": "/images/vampyr.jpg",
+            "artistId": 103,
+            "categoryId": 2,
+            "price": 2500
+        },
+        {
+            "id": 216,
+            "title": "Moonrise over Hernandez",
+            "imageUrl": "/images/moonrise_hernandez.jpg",
+            "artistId": 104,
+            "categoryId": 1,
+            "price": 1800
+        },
+        {
+            "id": 217,
+            "title": "Clearing Winter Storm",
+            "imageUrl": "/images/clearing_winter_storm.jpg",
+            "artistId": 104,
+            "categoryId": 1,
+            "price": 2000
+        },
+        {
+            "id": 218,
+            "title": "Tetons and Snake River",
+            "imageUrl": "/images/tetons_snake_river.jpg",
+            "artistId": 104,
+            "categoryId": 1,
+            "price": 2200
+        },
+        {
+            "id": 219,
+            "title": "Yosemite Valley",
+            "imageUrl": "/images/yosemite_valley.jpg",
+            "artistId": 104,
+            "categoryId": 1,
+            "price": 1900
+        },
+        {
+            "id": 220,
+            "title": "Untitled Film Still #21",
+            "imageUrl": "/images/untitled_film_still_21.jpg",
+            "artistId": 105,
+            "categoryId": 4,
+            "price": 2500
+        },
+        {
+            "id": 221,
+            "title": "Untitled #96",
+            "imageUrl": "/images/untitled_96.jpg",
+            "artistId": 105,
+            "categoryId": 4,
+            "price": 2700
+        },
+        {
+            "id": 222,
+            "title": "Untitled #153",
+            "imageUrl": "/images/untitled_153.jpg",
+            "artistId": 105,
+            "categoryId": 4,
+            "price": 2900
+        },
+        {
+            "id": 223,
+            "title": "Untitled #466",
+            "imageUrl": "/images/untitled_466.jpg",
+            "artistId": 105,
+            "categoryId": 2,
+            "price": 3100
+        }
+    ]
   }
